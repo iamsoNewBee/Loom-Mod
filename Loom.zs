@@ -5,4 +5,26 @@ recipes.addShapeless(<Loom:woolLoop>, [<minecraft:string>, <minecraft:string>, <
 recipes.addShapeless(<Loom:flaxRope> * 2, [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>]);
 recipes.addShapeless(<Loom:grassRope> * 2, [<Loom:grassString>, <Loom:grassString>, <Loom:grassString>]);
 recipes.addShaped(<Loom:flintKnife>, [[<minecraft:flint>], [<ore:stickWood>]]);
+
 recipes.removeShaped(<minecraft:wool>, [[<minecraft:string>, <minecraft:string>], [<minecraft:string>, <minecraft:string>]]);
+
+mods.nei.NEI.hide(<Loom:loomGrassDef>);
+mods.nei.NEI.hide(<Loom:loomStringDef>);
+mods.nei.NEI.hide(<Loom:loomFlaxDef>);
+mods.nei.NEI.hide(<Loom:loomG>);
+mods.nei.NEI.hide(<Loom:loomF>);
+##mods.nei.NEI.hide(<Loom:loomH1>);
+mods.nei.NEI.hide(<Loom:loomH>);
+mods.nei.NEI.hide(<Loom:loomF1>);
+mods.nei.NEI.hide(<Loom:loomC>);
+mods.nei.NEI.hide(<Loom:loomG1>);
+mods.nei.NEI.hide(<Loom:loomB>);
+mods.nei.NEI.hide(<Loom:loomD1>);
+mods.nei.NEI.hide(<Loom:loomE>);
+mods.nei.NEI.hide(<Loom:loomE1>);
+mods.nei.NEI.hide(<Loom:loomD>);
+mods.nei.NEI.hide(<Loom:loomGrassDef>);
+mods.nei.NEI.hide(<Loom:loomB1>);
+mods.nei.NEI.hide(<Loom:loomC1>);
+mods.nei.NEI.hide(<Loom:loomA>);
+mods.nei.NEI.hide(<Loom:loomA1>);
